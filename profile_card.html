@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Profile Card</title>
+    <style>
+      body, html {
+        height: 100%;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #f0f0f0;
+        font-family: Arial, sans-serif;
+      }
+
+      .profile-card {
+        width: 300px;
+        padding: 20px;
+        margin: 10px;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/background.jpg') no-repeat center center;
+        background-size: cover;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        color: white;
+      }
+
+      .profile-card .profile-picture {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-top: 10px;
+        border: 2px solid white;
+      }
+
+      .profile-card .name {
+        font-size: 24px;
+        color: white;
+        margin-bottom: 10px;
+      }
+
+      .profile-card .occupation {
+        font-size: 18px;
+        color: #dddddd;
+        margin-bottom: 20px;
+      }
+
+      .profile-card .description {
+        font-size: 15px;
+        color: #cccccc;
+        margin-bottom: 20px;
+        background-color: rgba(204, 204, 231, 0.5);
+        padding: 10px;
+        border-radius: 5px;
+      }
+
+      .profile-card .contact {
+        font-size: 14px;
+        color: #bbbbbb;
+        margin-bottom: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="profile-card">
+      <img
+        src="images/profileImage.jpg"
+        alt="Profile Picture"
+        class="profile-picture"
+      />
+      <h1 class="name">Faiyaz Khondakar</h1>
+      <h2 class="occupation">Software Engineer</h2>
+      <p class="description">
+        Back-end developer with a focus on Laravel. My main goals are to
+        improve my problem-solving abilities, gain experience with new
+        projects, and broaden my knowledge for personal growth.
+      </p>
+      <p class="contact">Email: faiyazkhondakar@gmail.com</p>
+      <p class="contact">Mobile: +8801992520564</p>
+    </div>
+  </body>
+</html>
